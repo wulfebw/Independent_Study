@@ -25,7 +25,7 @@ A LLD is a low level feature like pitch (f0). <b>This file contains a class used
 
 graph_ssp.py:
 -------------
-The specific data I used contained a great deal of network data due to the interaction of many different people in pairs. This data can be used quite effectively for predicting the outcome of interactions (in fact, it's the most effective type of feature.) <b>This file contains code for developing these features, which mostly consist of projecting the bipartite, undirected graph onto a weighted, directed graph, the weights of which are then aggregated through some reduce function (e.g., sum)</b>. This paper provided the basis for these features [3].
+The specific data I used contained a great deal of network data due to the interaction of many different people in pairs. This data can be used quite effectively for predicting the outcome of interactions (in fact, it's the most effective type of feature.) <b>This file contains code for developing these features, which mostly consist of projecting the bipartite, undirected graph onto a weighted, directed graph, the weights of which are then aggregated through some reduce function</b>. This paper provided the basis for these features [3].
 
 haarcascade_training.py:
 ------------------------
