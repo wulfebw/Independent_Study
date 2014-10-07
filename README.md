@@ -17,7 +17,7 @@ A: Mostly extracts features.
 
 Diarize.py:
 -----------
-In order to extract certain audio features, it's necessary to seperate an audio file of people speaking into segments of only one person speaking. This task is called speaker diarization and consists of the two subtasks of (1) speech recognition and (2) speaker recognition. The data used for this research had a lot of human background noise, which prevented the open-source speaker diarization software libraries I tried from working. The audio data used was collected from two non-colocated microphones, however, so I wrote this script that takes advantage of this situation to <b>perform a crude speaker diarization.</b>
+In order to extract certain audio features, it's necessary to separate an audio file of people speaking into segments of only one person speaking. This task is called speaker diarization and consists of the two subtasks of (1) speech recognition and (2) speaker recognition. The data used for this research had a lot of human background noise, which prevented the open-source speaker diarization software libraries I tried from working. The audio data used was collected from two non-collocated microphones, however, so I wrote this script that takes advantage of this situation to <b>perform a crude speaker diarization.</b>
 
 LowLevelDescriptor.py (LLD):
 ----------------------------
@@ -25,7 +25,7 @@ A LLD is a low level feature like pitch (f0). <b>This file contains a class used
 
 graph_ssp.py:
 -------------
-The specific data I used contained a great deal of network data due to the interaction of many different people in pairs. This data can be used quite effectively for predicting the outcome of interactions (in fact, it's the most effective type of feature.) <b>This file contains code for developing these features, which mostly consist of projecting the bipartitate, undirected graph onto a weighted, directed graph, the weights of which are then aggregarted through some reduce function (e.g., sum)</b>. This paper provided the basis for these features [3].
+The specific data I used contained a great deal of network data due to the interaction of many different people in pairs. This data can be used quite effectively for predicting the outcome of interactions (in fact, it's the most effective type of feature.) <b>This file contains code for developing these features, which mostly consist of projecting the bipartite, undirected graph onto a weighted, directed graph, the weights of which are then aggregated through some reduce function (e.g., sum)</b>. This paper provided the basis for these features [3].
 
 haarcascade_training.py:
 ------------------------
