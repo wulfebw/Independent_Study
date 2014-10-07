@@ -29,11 +29,11 @@ The specific data I used contained a great deal of network data due to the inter
 
 haarcascade_training.py:
 ------------------------
-One of the visual features I used was the amount each person smiled during the interaction and related functionals. The standard approach to smile detection is to extract from each frame a level of smile intensity, but I couldn't find any open source software to accomplish this. Hopefully I can do this in the future, but for the time being I just used openCVs object detection-related functionality to perform the task. I trained a cascade classifier on the data (if you're interested, my other repo - mergevec - has more information on this). <b>The code in this file was used for training the cascade classifier</b> and amongst other things. 
+One of the visual features I used was the amount each person smiled during the interaction and related functionals. The standard approach to smile detection is to extract from each frame a level of smile intensity, but I couldn't find any open source software to accomplish this. Hopefully I can do this in the future, but for the time being I just used openCVs object detection-related functionality to perform the task. I trained a cascade classifier on the data (if you're interested, my other repo - mergevec - has more information on this). <b>The code in this file was used for training the cascade classifier</b>. 
 
 outcome_features.py:
 --------------------
-Using the data covering the outcomes of the interactions, it is possible to make up some features. These sort of seem like cheating, but they're fun to come up with. This file contains the <b>code used for extracting a variety of outcome features.</b> 
+Using the data from the outcomes of the interactions, it is possible to make up some features. These sort of seem like cheating, but they're fun to come up with. This file contains the <b>code used for extracting a variety of outcome features.</b> 
 
 svm_visual.py:
 --------------
