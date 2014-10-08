@@ -41,6 +41,10 @@ visual_feature_extraction.py:
 -----------------------------
 <b>Code for extracting visual features</b> like body coordinates for all frames of a video and motion template image entropy and mean value.
 
+Further Information
+-------------------
+I wrote an in-depth paper covering the above research. Contact me by email if you're interested in reading it or want more information on the project. 
+
 ===================
 
 
