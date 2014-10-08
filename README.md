@@ -45,8 +45,8 @@ Further Information
 -------------------
 I wrote an in-depth paper covering the above research. Contact me by email if you're interested in reading it or want more information on the project. 
 
-===================
-
+References
+----------
 
 [0] http://www.cs.dartmouth.edu/~campbell/ubicomp-2012.pdf
 
