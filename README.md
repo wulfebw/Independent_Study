@@ -12,7 +12,7 @@ A: A machine learning project focused on social signal processing.
 
 Q: What does this code do? 
 
-A: Mostly extracts features. 
+A: Extracts features or performs related tasks.
 
 
 Diarize.py:
