@@ -1,5 +1,3 @@
-These scripts were used for a variety of tasks in my independent study. While this is primarily here for my own future reference, I'll give a brief description of the project and each of the files.
-
 Project Overview:
 -----------------
 In social signal processing and computational behavioral analysis, researchers incorporate a variety of feature types in their models for predicting information about people. For example, an audio feature of speech such as pitch can tell you fairly accurately if someone is stressed [0], and a dyadic feature like mutual eye contact can help tell you if people are friends [1]. <b>The goal of this project is to use a large variety of feature types (audio, visual, dyadic, network, and others) to predict the outcome of an interaction between two people, and in doing so determine the impact these different feature types have on prediction accuracy of human decisions.</b> Audiovisual data was used for feature development. 
