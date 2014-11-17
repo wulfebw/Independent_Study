@@ -13,10 +13,6 @@ Q: What does this code do?
 A: Extracts features, performs classification, or serves related purposes.
 
 
-Diarize.py:
------------
-In order to extract certain audio features, it's necessary to separate an audio file of people speaking into segments of only one person speaking. This task is called speaker diarization and consists of the two subtasks of (1) speech recognition and (2) speaker recognition. The data used for this research had a lot of human background noise, which prevented the open-source speaker diarization software libraries I tried from working. The audio data used was collected from two non-collocated microphones, however, so I wrote this script that takes advantage of this situation to <b>perform a crude speaker diarization.</b>
-
 LowLevelDescriptor.py (LLD):
 ----------------------------
 A LLD is a low level feature like pitch (f0). <b>This file contains a class used for extracting LLDs from audio data.</b> It uses a audio feature extraction library called openSMILE, which is great [2].
@@ -32,6 +28,10 @@ One of the visual features I used was the amount each person smiled during the i
 outcome_features.py:
 --------------------
 Using the data from the outcomes of the interactions, it is possible to make up some features. These sort of seem like cheating, but they're fun to come up with. This file contains the <b>code used for extracting a variety of outcome features.</b> 
+
+Diarize.py:
+-----------
+In order to extract certain audio features, it's necessary to separate an audio file of people speaking into segments of only one person speaking. This task is called speaker diarization and consists of the two subtasks of (1) speech recognition and (2) speaker recognition. The data used for this research had a lot of human background noise, which prevented the open-source speaker diarization software libraries I tried from working. The audio data used was collected from two non-collocated microphones, however, so I wrote this script that takes advantage of this situation to <b>perform a crude speaker diarization.</b>
 
 svm_visual.py:
 --------------
