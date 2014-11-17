@@ -10,7 +10,7 @@ A: A machine learning project focused on social signal processing.
 
 Q: What does this code do? 
 
-A: Extracts features or performs related tasks.
+A: Extracts features, performs classification, or serves related purposes.
 
 
 Diarize.py:
@@ -43,7 +43,7 @@ visual_feature_extraction.py:
 
 Further Information
 -------------------
-I wrote an in-depth paper covering the above research. Contact me by email if you're interested in reading it or want more information on the project. 
+I wrote an in-depth paper covering the above research. Contact me by email if you're interested in reading it or want more information on the project. Parts of this system are omitted.
 
 References
 ----------
