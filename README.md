@@ -15,11 +15,11 @@ A: Extracts features, performs classification, or serves related purposes.
 
 LowLevelDescriptor.py (LLD):
 ----------------------------
-A LLD is a low level feature like pitch (f0). <b>This file contains a class used for extracting LLDs from audio data.</b> It uses a audio feature extraction library called openSMILE, which is great [2].
+A LLD is a low level feature like pitch (f0). <b>This file contains a class used for extracting LLDs from audio data.</b> It uses an audio feature extraction library called openSMILE, which is great [2].
 
 graph_ssp.py:
 -------------
-The specific data I used contained a great deal of network data due to the interaction of many different people in pairs. This data can be used quite effectively for predicting the outcome of interactions (in fact, it's the most effective type of feature.) <b>This file contains code for developing these features, which mostly consist of projecting the bipartite, undirected graph onto a weighted, directed graph, the weights of which are then aggregated through some reduce function</b>. This paper provided the basis for these features [3].
+The specific data I used contained a great deal of network data due to the interaction of many different people in pairs. This data can be used quite effectively for predicting the outcome of interactions (in fact, it's so far the most effective type of feature.) <b>This file contains code for developing these features, which mostly consist of projecting the bipartite, undirected graph onto a weighted, directed graph, the weights of which are then aggregated through some reduce function</b>. This paper provided the basis for these features [3].
 
 ![alt tag](https://github.com/wulfebw/Independent_Study/blob/master/media/bipartite.png)
 The bipartite preference graph was used to create the following weighted projection. Summing and taking the average of the edge weights produced the network features used in predicting decisions.
